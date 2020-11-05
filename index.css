@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+
+/* SECTIONS */
+
+/* TYPOGRAPHY */
+
+h1, h2, h3, label, li {
+    color: #000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    line-height: 68px;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+label, li {
+    font-size: 24px;
+}
+
+li {
+    text-decoration: none;
+}
+
+/* IDS */
+
+#submit {
+    margin: auto;
+    text-align: center;
+}
+
+/* CLASSES */
+
+
+
+.hidden {
+    display: none;
+}
+
+.group {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+}
+
+.item {
+    flex: 1;
+    margin: auto;
+    display: block;
+}
+
+/* MEDIA QUERIES */
+
+@media all and (min-width: 600px) {
+
+}
